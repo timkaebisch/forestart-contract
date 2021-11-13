@@ -5,6 +5,18 @@
         "value": "Peru"
       },
       {
+        "trait_type": "Forest",
+        "value": "Amazonas rainforest"
+      },
+      {
+        "trait_type": "Region",
+        "value": "Pasco"
+      },
+      {
+        "trait_type": "Coordinates",
+        "value": "-10.261639,-74.823694"
+      },
+      {
         "trait_type": "Area",
         "value": "1 ha"
       }
@@ -12,5 +24,5 @@
     "description": "This NFT protects 1 ha of Amazonas rainforest in Peru",
     "image": "https://gateway.pinata.cloud/ipfs/QmVy8sCnAefbHjFzKvYAb8rSDCkeGbrw97wHeoG43PE2CX",
     "name": "FORESTART"
-  }
+}
   

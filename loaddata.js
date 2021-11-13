@@ -14,5 +14,26 @@ async function getURI(id) {
     console.log(uri)
 }
 
-getURI(1)
+//getURI(1)
+
+// get all nfts (id) for a certain address
+
+async function getIDs(address) {
+
+    const amount = await nftContract.methods.balanceOf(address).call()
+    const ids = []
+
+    for(i=1; i<= amount; i++){
+        const owner = await nftContract.methods.ownerOf(i).call()
+        if (address == owner) {
+            ids.push(i)
+        }
+    }
+
+    console.log(ids)
+
+}
+
+getIDs("0x68DB45FcC9005d4f1BF60D7Cb0D8475D8a5B7a54")
+
 

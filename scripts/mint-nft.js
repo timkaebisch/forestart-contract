@@ -7,7 +7,7 @@ const { createAlchemyWeb3 } = require("@alch/alchemy-web3")
 const web3 = createAlchemyWeb3(API_URL)
 
 const contract = require("../artifacts/contracts/FORESTART.sol/FORESTART.json"); // path to abi
-const contractAddress = "0x4AC16984351AFf86d54388d7D5ae43B4C787eA0D" // address contract
+const contractAddress = "0x70727fC3B308Cd115Ed4A74dfBeCEa0002be4d5f" // address contract
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
 
@@ -44,7 +44,7 @@ async function mintNFT(tokenURI) {
     })
 }
 
-mintNFT("https://gateway.pinata.cloud/ipfs/QmWxnCPMkS8SP5igqXB8FVvnKiWA5EaHy4azWH4Eyz2sxz") // URI of nft-metadata.json
+mintNFT("https://gateway.pinata.cloud/ipfs/Qma5cYrLMvmPyZQmiAByjeWG3Z4Q4AvCi7Df2QekYba4vJ") // URI of nft-metadata.json
 
 
 
