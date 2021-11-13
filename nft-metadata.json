@@ -1,0 +1,16 @@
+{
+    "attributes": [
+      {
+        "trait_type": "Country",
+        "value": "Peru"
+      },
+      {
+        "trait_type": "Area",
+        "value": "1 ha"
+      }
+    ],
+    "description": "This NFT protects 1 ha of Amazonas rainforest in Peru",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVy8sCnAefbHjFzKvYAb8rSDCkeGbrw97wHeoG43PE2CX",
+    "name": "FORESTART"
+  }
+  
