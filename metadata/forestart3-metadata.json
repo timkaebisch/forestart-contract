@@ -6,7 +6,7 @@
       },
       {
         "trait_type": "Forest",
-        "value": "Amazonas rainforest"
+        "value": "Amazon rainforest"
       },
       {
         "trait_type": "Region",
@@ -21,7 +21,7 @@
         "value": "1 ha"
       }
     ],
-    "description": "This NFT protects 1 ha of Amazonas rainforest in Peru",
+    "description": "This NFT protects 1 ha of Amazon rainforest in Peru",
     "image": "https://gateway.pinata.cloud/ipfs/QmS8udp3TAmW9H3fvx7M9tbHfkCEgfo6LmjAR1QYop4orr",
     "name": "FORESTART"
 }
